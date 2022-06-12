@@ -1,5 +1,5 @@
 # Note-Share-App
-It's the project that I developed in the internship program.
+It's the project that I developed with my 2 - member internship team in the internship program.
 
 ![](https://s8.gifyu.com/images/note-share.gif)
 # What's this?
