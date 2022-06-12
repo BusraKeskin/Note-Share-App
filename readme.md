@@ -1,13 +1,17 @@
-![alt text](note-share.gif)
+# Note-Share-App
+It's the project that I developed in the internship program.
 
-- You can make the server publicly 
-```python
-app.run(host='0.0.0.0', port=8000)
+![](https://s8.gifyu.com/images/note-share.gif)
+# What's this?
+It is a Web Based Application in which helps you create and organize digital notes—and keeps them in your personal account. Programmed with Python language that uses Flask and SQLite in Linux operating system.
+
+### You can make the server publicly
 ```
+app.run(host='0.0.0.0', port=8000)
 
-- Autosave code 
-  
-```js
+```
+### Autosave code
+```
 var timeoutId;
 $('#content').on('input propertychange change', function() {
   clearTimeout(timeoutId);
@@ -23,9 +27,8 @@ $('#content').on('input propertychange change', function() {
     },1000);
   });
 ```
-- Markdown Filter
-
-```python
+### Markdown Filter
+```
 #Import Python file
 from flaskext.markdown import Markdown
 markdown = Markdown(app)
@@ -33,4 +36,3 @@ markdown = Markdown(app)
 #Import HTML file
 {{note.content|markdown}}
 ```
-
